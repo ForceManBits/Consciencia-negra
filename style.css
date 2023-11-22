@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+background-image: url(https://pbs.twimg.com/media/FKNBQyZXsAMo-k2.jpg:large);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.mainbanner{
+box-sizing: border-box;
+border-color: #000000;
+border-style: groove;
+text-align: center;
+border-width: 3px;
+border-radius: 20px;
+background-color:#460000 ;
+margin-left: 240px;
+margin-right:240px;
+margin-bottom:30px;
+padding: 70px;
+color: #ffffff;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-image: url(https://fightersgeneration.com/nx9/game/ggxrd-artwork-transparent.png);
+background-position: 30px ;
+
+}
+
+.maindesc{
+    display: flex;
+    box-sizing: border-box;
+    border-style: initial;
+    border-color: antiquewhite;
+
+}
+
+.text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    
+
+
+
+}
+
+.text h1{
+    margin-top: 10%;
+    margin-right: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: #c25e00;
+    border-radius: 2px;
+    padding:20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.maindesc p{
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: #c25e00;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.maindesc img{
+    height: 600px;
+    box-sizing: border-box;
+    background-color: #460000;
+    border-radius: 1900px;
+    padding: 0.2px;
+
+}
+
+.maindesc2 img{
+    height: 600px;
+    box-sizing: border-box;
+    background-color: #460000 ;
+    border-radius: 1900px;
+    padding: 2px;
+    margin-left: 60%
+    
+
+}
+
+
+.maindesc2 p{
+    text-align: center;
+    margin-top: 0%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #c25e00;
+    border-radius: 2px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+.text2{
+position: absolute;
+margin-right: 50%;
+top:110%;
+
+
+
+}
+
+.text2 h1{
+    margin-top: 20%;
+    box-sizing: border-box;
+    background-color: #c25e00;
+    border-radius: 2px;
+    padding:20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
